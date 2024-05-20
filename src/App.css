@@ -1,0 +1,530 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.outerhero{
+  background: #000 url('./assets/images/layer_96.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 5vw 2vh 2vw;
+  border-bottom: 1.5px solid #fff;
+
+}
+.rightnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.leftrightnav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+.leftrightnav ul li{
+  list-style: none;
+  font-size: 1.5vw;
+  cursor: pointer;
+  color: #fff;
+}
+.rightrightnav{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.herocontainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12vh;
+  padding: 18vh 0;
+}
+.upperhero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  
+}
+.heroheading {
+  font-size: 3vw;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 0.6vw;
+}
+
+.scrollimg{
+  padding: 5%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.herodesc{
+  color: rgb(20, 95, 170);
+  font-size: 1.2vw;
+  letter-spacing: 0.9vw;
+}
+.downhero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+.scrolldes{
+  color: #fff;
+  font-size: 1.3vw;
+
+}
+.outerfeature{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 0;
+  gap: 5vh;
+  background-color: rgb(20, 95, 170);
+}
+.upperfeature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bigtext{
+  font-size: 5vw;
+  color: #ffffff38;
+}
+.featuredesc{
+  position: absolute;
+  color: #fff;
+  word-spacing: 0.5vw;
+  font-size: 2vw;
+}
+.downfeature{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3vw;
+  padding: 2vh 3vw;
+
+}
+
+.perfeature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 4vh;
+  color: #fff;
+
+}
+.perfeatureimg{
+  padding: 10%;
+  border-radius: 50%;
+  background-color: #ffffff38 ;
+}
+.rightouterabout{
+  width: 50%;
+  overflow: hidden;
+}
+.rightouterabout img{
+  height: 100%;
+}
+.outerabout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  gap: 2vw;
+  
+}
+.outerabout2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8080804f;
+  flex-direction: row-reverse;
+  gap: 2vw;
+ 
+
+
+
+}
+.leftouterabout{
+  display: flex;
+  flex-direction: column;
+  padding: 4vh 2vw;
+  gap: 4vh;
+  color: #fff;
+  width: 50%;
+}
+.headingleftouterabout h3{
+  font-size: 2.3vw;
+}
+.upperleftouterabout p{
+  font-size: 1.5vw;
+}
+
+.upperleftouteraboutdesc{
+  font-size: 1.3vw;
+}
+.downleftouteraboutdesc{
+  font-size: 1.3vw;
+
+
+}
+.lefti2{
+ 
+  color: #000;
+}
+.outerblog{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 0;
+  gap: 5vh;
+  background-color: #fff;
+}
+.big2{
+  color: #808080b2;
+}
+.fea2{
+  color: #000;
+}
+.blogpunch{
+  font-size: 1.7vw;
+  letter-spacing: 0.2vw;
+}
+.perb{
+  color: rgb(20, 95, 170);
+}
+.perdb{
+  color: #000;
+  font-size: 1.3vw;
+}
+.perbi{
+  padding: 0%;
+}
+.outerpoint{
+  background-color: rgb(20, 95, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  padding: 9vh 6vw;
+}
+.leftpoint{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  color: #fff;
+}
+.outerphone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 12vw;
+  gap: 8vw;
+  background: #0000003a url('../src/assets/images/phonebg.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+.leftouterphone{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  gap: 5vh;
+  flex-direction: column;
+}
+.upperleftouterphone{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2vh;
+  flex-direction: column;
+}
+.firstleftouterphone{
+  font-size: 2vw;
+}
+.descleftouterphone{
+  font-size: 1.4vw;
+  color: #ffffffa7;
+}
+.bcolor{
+  background-color: rgb(20, 95, 170);
+  padding: 2vh 1vw;
+}
+.firstleftouterphone1{
+  width: 20vw;
+}
+.secondleftouterphone{
+  width: 22vw;
+}
+.thirdleftouterphone{
+  width: 24vw;
+
+}
+.downadjust{
+  position: relative;
+  bottom: 8vh;
+  background-color: #fff;
+  padding: 2vh 2vw;
+}
+.outercontact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 0;
+  gap: 5vh;
+  background: #000 url('../src/assets/images/contact1.png') no-repeat fixed center;
+  background-size: cover;
+}
+.downcontact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+  
+}
+.upperdowncontact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.upperdowncontact input{
+  padding: 2vh 2vw;
+  background-color: #ffffff0c;
+  width: 20vw;
+  color: #fff;
+}
+.downdowncontact textarea{
+  padding: 2vh 2vw;
+  width: 73vw;
+
+  color: #fff;
+  background-color: #ffffff0c;
+}
+.submitbutton button{
+  padding: 2.5vh 5vw;
+  border: none;
+  font-weight: bolder;
+  background-color: rgb(20, 95, 170);
+  font-size: 1.1vw;
+  color: #fff;
+  cursor: pointer;
+}
+.onback{
+  background: #000 url('./assets/images/rectangle_10.jpg') no-repeat fixed center ;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.outerfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4vh 0;
+  background-color: #000;
+  color: #fff;
+}
+.leftouterfooter{
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width:952px){
+  .leftrightnav ul li {
+    font-size: 2.2vw;
+   
+  }
+  .heroheading {
+    font-size: 5vw;
+   
+  }
+  .herodesc {
+    
+    font-size: 1.8vw;
+    
+  }
+  
+  .scrolldes {
+ 
+    font-size: 1.75vw;
+  }
+}
+@media screen and (max-width:952px){
+  .leftrightnav ul li {
+    font-size: 3.5vw;
+   
+  }
+  nav {
+    flex-direction: column;
+    gap: 2vh;
+  }
+  .rightnav {
+    flex-direction: column;
+  }
+  .outerphone {
+   
+    padding: 4vh 12vw;
+    gap: 7vw;
+    
+    flex-direction: column-reverse;
+  }
+  .leftouterphone {
+   
+    align-items: center;
+  }
+  
+  .bcolor {
+    width: 100%;
+  }
+  .descleftouterphone {
+    font-size: 2.4vw;
+    text-align: center;
+   
+  }
+  .firstleftouterphone {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .upperleftouterphone {
+   
+    align-items: center;
+    
+  }
+}
+@media screen and (max-width:750px) {
+  .downfeature {
+    
+    flex-direction: column;
+  }
+  .perfeaturedesc{
+    font-size: 3vw;
+  }
+  .featuredesc {
+    
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
+  }
+  .bigtext {
+    font-size: 10.5vw;
+    
+  }
+  .outerabout {
+   
+    flex-direction: column;
+   
+  }
+  .leftouterabout {
+    
+    width: 90%;
+  }
+  .rightouterabout {
+    width: 100%;
+
+  }
+  .upperleftouteraboutdesc {
+    font-size: 2.9vw;
+  }
+  .downleftouteraboutdesc {
+    font-size: 2.9vw;
+  }
+  .headingleftouterabout h3 {
+    font-size: 4vw;
+  }
+  .outerabout2 {
+    
+    flex-direction: column-reverse;
+  }
+  .outerpoint {
+   
+    flex-direction: column;
+  }
+  
+  .leftouterfooter {
+    font-size: 2.5vw;
+  }
+  .rightouterfooter p img{
+    width: 25vw;
+  }
+}
+@media screen and (max-width:520px){
+  .onback {
+    
+    height: 25vh;
+  
+  }
+  .herocontainer {
+    gap: 6vh;
+    padding: 10vh 0;
+  }
+  .blogpunch {
+    font-size: 3.6vw;
+    
+  }
+  .upperdowncontact {
+    
+    flex-direction: column;
+  }
+  .upperdowncontact input {
+    
+    width: 90vw;
+   
+  }
+  .downdowncontact textarea {
+    
+    width: 90vw;
+   
+  }
+  .submitbutton button {
+    padding: 1.5vh 9vw;
+   
+    font-size: 3.1vw;
+    
+  }
+  .descleftouterphone {
+    font-size: 3.4vw;
+    text-align: center;
+  }
+  .heroheading {
+    font-size: 7vw;
+   
+  }
+  .herodesc {
+    
+    font-size: 3.8vw;
+    
+  }
+  
+  .scrolldes {
+ 
+    font-size: 4vw;
+  }
+
+  
+}
+@media screen and (max-width:400px){
+  .leftrightnav ul li {
+    font-size: 3.6vw;
+   
+  }
+
+  
+}
